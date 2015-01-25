@@ -3,4 +3,4 @@ module Main where
 import Test.DocTest
 
 main :: IO ()
-main = doctest ["Main.hs"]
+main = doctest ["src/Main.hs"]
