@@ -22,7 +22,7 @@ synopsis:            Testing CI and test coverage with drone.io and coveralls.
 homepage:            https://github.com/rimmington/haskell-continuous
 
 -- The license under which the package is released.
-license:             CC0 1.0 Universal
+license:             OtherLicense
 
 -- The file containing the license text.
 license-file:        LICENSE
