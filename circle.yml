@@ -1,0 +1,10 @@
+machine:
+  ghc:
+    version: 7.8.3
+dependencies:
+  post:
+    - cabal configure --enable-tests --enable-library-coverage
+test:
+  post:
+    - cabal install hpc-coveralls
+    - .cabal-sandbox/bin/hpc-coveralls doctest
