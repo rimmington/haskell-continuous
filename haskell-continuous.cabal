@@ -13,7 +13,7 @@ name:                haskell-continuous
 version:             0.1.0.0
 
 -- A short (one-line) description of the package.
-synopsis:            Testing CI and test coverage with drone.io and coveralls.
+synopsis:            Testing CI and test coverage with CircleCI and Coveralls.
 
 -- A longer description of the package.
 -- description:         
