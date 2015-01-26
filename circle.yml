@@ -7,4 +7,4 @@ dependencies:
 test:
   post:
     - cabal install hpc-coveralls
-    - .cabal-sandbox/bin/hpc-coveralls doctest
+    - .cabal-sandbox/bin/hpc-coveralls --repo-token=$COVERALLS_REPO_TOKEN --exclude-dir=test doctest
